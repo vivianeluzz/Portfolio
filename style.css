@@ -1,0 +1,28 @@
+.container{
+    width: 96%;
+    height: 692px;
+    border-radius: 80px;
+    margin: 2% 2%;
+    background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE);  
+}
+
+h1{
+    font-weight: 700;
+    color:#4F6B82;
+    font-family: P22 Mackinac Pro;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 180px;
+    @font-face {
+        font-family:"P22 Mackinac";
+        src: local(P22Mackinac), url(../Portfolio/P22Mackinac-ExtraBold_9.otf);
+    }
+}
+
+p  {
+    font-weight: 700;
+    font-size: 24px;
+    color: #4F6B82;
+    text-align: center;
+}
