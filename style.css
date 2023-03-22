@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@font-face {
+    font-family: "P22Mackinac";
+    src: url('P22Mackinac-ExtraBold_9.otf') format('opentype');
+}
+
 .container{
     width: 96%;
     height: 692px;
@@ -7,17 +13,21 @@
 }
 
 h1{
-    font-weight: 700;
+    font-weight: 400;
     color:#4F6B82;
-    font-family: P22 Mackinac Pro;
+    font-family: 'P22Mackinac';
     font-size: 60px;
     text-align: center;
     margin: 0 auto;
     padding: 180px;
-    @font-face {
-        font-family:"P22 Mackinac";
-        src: local(P22Mackinac), url(../Portfolio/P22Mackinac-ExtraBold_9.otf);
-    }
+}
+.icons {
+    width: 32px 32px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
 }
 
 p  {
