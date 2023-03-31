@@ -1,14 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 @font-face {
     font-family: "P22Mackinac";
-    src: url('P22Mackinac-ExtraBold_9.otf') format('opentype');
+    /* src: url('P22Mackinac-ExtraBold_9.otf') format('opentype'); */
+    src: url('P22MackinacPro-Bold_16.otf') format('opentype');
+    src: url('P22Mackinac-Medium_6.otf') format('opentype');
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+
+li {
+    font-family: 'P22Mackinac';
+    font-size: 16px;
+    color: #4F6B82;
+    list-style: none;
+    margin: 40px;
+    font-weight: 700;
+}
+
+.avatar {
+    border-radius: 60px;
+    width: 120px;
+    margin-top: -2%;
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 96%;
     height: 692px;
     border-radius: 80px;
-    margin: 2% 2%;
+    margin: 0 2% 0 2%;
     background: linear-gradient(#FEF2F4, #FEFBF2, #FBF2FE);  
 }
 
@@ -19,14 +45,16 @@ h1{
     font-size: 60px;
     text-align: center;
     margin: 0 auto;
-    padding: 180px;
+    padding: 40px;
+
 }
 .icons {
-    width: 32px 32px;
+    width: 32px;
+    margin: 40px;
     text-align: center;
 }
 
-section {
+main {
     text-align: center;
 }
 
@@ -35,4 +63,134 @@ p  {
     font-size: 24px;
     color: #4F6B82;
     text-align: center;
+}
+
+.vector{
+    width: 228px;
+    height: 27px;
+    margin: 0 auto;
+}
+
+.infos{
+    margin: 0 auto;
+    margin-top: 160px;
+    width: 800px;
+}
+.img-emoji{
+    width: 286px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.emoji{
+    width: 45px;
+    height: 58px;
+}
+.vectorseta{
+    width: 106px;
+    height: 71px;
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'P22Mackinac';
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 2%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section{
+    width: 1400px;
+    height: 1583px;
+    background-color: #FAFBFC;
+    border-radius: 80px;
+}
+
+.box{
+    /* display: flex; */
+    /* flex-direction: row; */
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2{
+    width: 520px;
+    font-size: 64px;
+    background: linear-gradient(#50ADF8, #DC6CCD); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    margin-left: 184px;
+}
+
+.git{
+    background-color: #E7F7EC;
+}
+.html {
+    background-color: #F8EFE8;
+}
+.css{
+    background-color: #E7E9FA;
+}
+
+.js{
+    background-color: #F8F9EB;
+}
+.rjs{
+    background-color: #EBF8FB;
+}
+.redx{
+    background-color: #EDEAF6;
+}
+
+.node{
+    background-color: #F1F6E6;
+}
+
+.ang{
+    background-color: #F7E2E8;
+}
+
+.typ{
+    background-color:#EAEEF7;
+}
+
+.teams{
+    background-color: #EDEEFA;
+}
+
+.sla{
+    background-color: #E6F6FB;
+}
+
+
+.box-habilidade{
+    width: 240px;
+    height: 266px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    width: 71px;
+    margin-bottom:40px;
+}
+
+.text{
+
+    font-size: 20px;
+    font-family: 'P22Mackinac';
+    font-weight: 700;
+    color: #506F88;
+
 }
